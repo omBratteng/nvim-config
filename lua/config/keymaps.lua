@@ -10,3 +10,11 @@ vim.keymap.set("n", "<leader>ao", function()
     },
   })
 end, { desc = "Toggle Oh My Pi" })
+
+vim.keymap.set("n", "<leader>th", function()
+  Snacks.terminal(nil, { win = { position = "bottom", height = 0.3 } })
+end, { desc = "Terminal (horizontal split)" })
+
+vim.keymap.set("n", "<leader>tv", function()
+  Snacks.terminal(nil, { win = { position = "right", width = 0.4 } })
+end, { desc = "Terminal (vertical split)" })
