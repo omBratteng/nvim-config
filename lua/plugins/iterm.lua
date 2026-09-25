@@ -1,5 +1,5 @@
 return {
-  "ombratteng/iterm.nvim",
+  "izeau/iterm.nvim",
   version = false,
   cond = vim.env.TERM_PROGRAM == "iTerm.app",
   opts = { profile = "Neovim" },
