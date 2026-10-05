@@ -1,4 +1,4 @@
-local opencode_cmd = "opencode --port"
+local opencode_cmd = "opencode"
 ---@type snacks.terminal.Opts
 local snacks_terminal_opts = {
   win = {
@@ -9,7 +9,7 @@ local snacks_terminal_opts = {
 
 return {
   "nickjvandyke/opencode.nvim",
-  version = "*", -- Latest stable release
+  -- version = "*", -- Latest stable release
   dependencies = {
     {
       -- `snacks.nvim` integration is recommended, but optional
