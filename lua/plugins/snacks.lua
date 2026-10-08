@@ -7,6 +7,10 @@ return {
           files = {
             hidden = true,
             ignored = true,
+            exclude = { "*.class" },
+          },
+          grep = {
+            exclude = { "*.class" },
           },
         },
       },
